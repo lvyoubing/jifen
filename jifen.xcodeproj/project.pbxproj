@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65684D7E1CDC8F4900B1E229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684D7D1CDC8F4900B1E229 /* AppDelegate.swift */; };
+		65684D801CDC8F4900B1E229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684D7F1CDC8F4900B1E229 /* ViewController.swift */; };
+		65684D831CDC8F4900B1E229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65684D811CDC8F4900B1E229 /* Main.storyboard */; };
+		65684D851CDC8F4900B1E229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65684D841CDC8F4900B1E229 /* Assets.xcassets */; };
+		65684D881CDC8F4900B1E229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65684D861CDC8F4900B1E229 /* LaunchScreen.storyboard */; };
+		65684D931CDC8F4900B1E229 /* jifenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684D921CDC8F4900B1E229 /* jifenTests.swift */; };
+		65684D9E1CDC8F4900B1E229 /* jifenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684D9D1CDC8F4900B1E229 /* jifenUITests.swift */; };
+		65684DAC1CDC8F8C00B1E229 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65684DAB1CDC8F8C00B1E229 /* libsqlite3.0.tbd */; };
+		65684DB41CDC915600B1E229 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684DB31CDC915600B1E229 /* String-Extras.swift */; };
+		65684DB61CDC916300B1E229 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684DB51CDC916300B1E229 /* SQLTable.swift */; };
+		65684DB81CDC917500B1E229 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684DB71CDC917500B1E229 /* SQLiteDB.swift */; };
+		65684DBA1CDC92DF00B1E229 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 65684DB91CDC92DF00B1E229 /* data.db */; };
+		65684DBD1CDC94C300B1E229 /* IMG_0030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65684DBC1CDC94C300B1E229 /* IMG_0030.jpg */; };
+		65684DC01CDC984A00B1E229 /* faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65684DBE1CDC984A00B1E229 /* faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg */; };
+		65684DC11CDC984A00B1E229 /* 34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65684DBF1CDC984A00B1E229 /* 34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg */; };
+		65684DC31CDC995C00B1E229 /* d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65684DC21CDC995C00B1E229 /* d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65684D8F1CDC8F4900B1E229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65684D721CDC8F4900B1E229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65684D791CDC8F4900B1E229;
+			remoteInfo = jifen;
+		};
+		65684D9A1CDC8F4900B1E229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65684D721CDC8F4900B1E229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65684D791CDC8F4900B1E229;
+			remoteInfo = jifen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65684D7A1CDC8F4900B1E229 /* jifen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jifen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65684D7D1CDC8F4900B1E229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65684D7F1CDC8F4900B1E229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65684D821CDC8F4900B1E229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65684D841CDC8F4900B1E229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65684D871CDC8F4900B1E229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65684D891CDC8F4900B1E229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65684D8E1CDC8F4900B1E229 /* jifenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jifenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65684D921CDC8F4900B1E229 /* jifenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jifenTests.swift; sourceTree = "<group>"; };
+		65684D941CDC8F4900B1E229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65684D991CDC8F4900B1E229 /* jifenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jifenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65684D9D1CDC8F4900B1E229 /* jifenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jifenUITests.swift; sourceTree = "<group>"; };
+		65684D9F1CDC8F4900B1E229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65684DAB1CDC8F8C00B1E229 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		65684DB31CDC915600B1E229 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../SQLiteDB-master/String-Extras.swift"; sourceTree = "<group>"; };
+		65684DB51CDC916300B1E229 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = "../SQLiteDB-master/SQLTable.swift"; sourceTree = "<group>"; };
+		65684DB71CDC917500B1E229 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = "../SQLiteDB-master/SQLiteDB.swift"; sourceTree = "<group>"; };
+		65684DB91CDC92DF00B1E229 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.db; path = ../hangge_645/data.db; sourceTree = "<group>"; };
+		65684DBB1CDC930C00B1E229 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		65684DBC1CDC94C300B1E229 /* IMG_0030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0030.jpg; path = ../IMG_0030.jpg; sourceTree = "<group>"; };
+		65684DBE1CDC984A00B1E229 /* faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg; path = ../faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg; sourceTree = "<group>"; };
+		65684DBF1CDC984A00B1E229 /* 34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg; path = ../34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg; sourceTree = "<group>"; };
+		65684DC21CDC995C00B1E229 /* d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg; path = ../d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65684D771CDC8F4900B1E229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65684DAC1CDC8F8C00B1E229 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65684D8B1CDC8F4900B1E229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65684D961CDC8F4900B1E229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65684D711CDC8F4900B1E229 = {
+			isa = PBXGroup;
+			children = (
+				65684DBE1CDC984A00B1E229 /* faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg */,
+				65684DC21CDC995C00B1E229 /* d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg */,
+				65684DBF1CDC984A00B1E229 /* 34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg */,
+				65684DB91CDC92DF00B1E229 /* data.db */,
+				65684DBC1CDC94C300B1E229 /* IMG_0030.jpg */,
+				65684DAB1CDC8F8C00B1E229 /* libsqlite3.0.tbd */,
+				65684DB21CDC911500B1E229 /* SQLiteDB */,
+				65684D7C1CDC8F4900B1E229 /* jifen */,
+				65684D911CDC8F4900B1E229 /* jifenTests */,
+				65684D9C1CDC8F4900B1E229 /* jifenUITests */,
+				65684D7B1CDC8F4900B1E229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65684D7B1CDC8F4900B1E229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65684D7A1CDC8F4900B1E229 /* jifen.app */,
+				65684D8E1CDC8F4900B1E229 /* jifenTests.xctest */,
+				65684D991CDC8F4900B1E229 /* jifenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65684D7C1CDC8F4900B1E229 /* jifen */ = {
+			isa = PBXGroup;
+			children = (
+				65684DBB1CDC930C00B1E229 /* Bridging-Header.h */,
+				65684D7D1CDC8F4900B1E229 /* AppDelegate.swift */,
+				65684D7F1CDC8F4900B1E229 /* ViewController.swift */,
+				65684D811CDC8F4900B1E229 /* Main.storyboard */,
+				65684D841CDC8F4900B1E229 /* Assets.xcassets */,
+				65684D861CDC8F4900B1E229 /* LaunchScreen.storyboard */,
+				65684D891CDC8F4900B1E229 /* Info.plist */,
+			);
+			path = jifen;
+			sourceTree = "<group>";
+		};
+		65684D911CDC8F4900B1E229 /* jifenTests */ = {
+			isa = PBXGroup;
+			children = (
+				65684D921CDC8F4900B1E229 /* jifenTests.swift */,
+				65684D941CDC8F4900B1E229 /* Info.plist */,
+			);
+			path = jifenTests;
+			sourceTree = "<group>";
+		};
+		65684D9C1CDC8F4900B1E229 /* jifenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65684D9D1CDC8F4900B1E229 /* jifenUITests.swift */,
+				65684D9F1CDC8F4900B1E229 /* Info.plist */,
+			);
+			path = jifenUITests;
+			sourceTree = "<group>";
+		};
+		65684DB21CDC911500B1E229 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				65684DB71CDC917500B1E229 /* SQLiteDB.swift */,
+				65684DB51CDC916300B1E229 /* SQLTable.swift */,
+				65684DB31CDC915600B1E229 /* String-Extras.swift */,
+			);
+			name = SQLiteDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65684D791CDC8F4900B1E229 /* jifen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65684DA21CDC8F4900B1E229 /* Build configuration list for PBXNativeTarget "jifen" */;
+			buildPhases = (
+				65684D761CDC8F4900B1E229 /* Sources */,
+				65684D771CDC8F4900B1E229 /* Frameworks */,
+				65684D781CDC8F4900B1E229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jifen;
+			productName = jifen;
+			productReference = 65684D7A1CDC8F4900B1E229 /* jifen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65684D8D1CDC8F4900B1E229 /* jifenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65684DA51CDC8F4900B1E229 /* Build configuration list for PBXNativeTarget "jifenTests" */;
+			buildPhases = (
+				65684D8A1CDC8F4900B1E229 /* Sources */,
+				65684D8B1CDC8F4900B1E229 /* Frameworks */,
+				65684D8C1CDC8F4900B1E229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65684D901CDC8F4900B1E229 /* PBXTargetDependency */,
+			);
+			name = jifenTests;
+			productName = jifenTests;
+			productReference = 65684D8E1CDC8F4900B1E229 /* jifenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65684D981CDC8F4900B1E229 /* jifenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65684DA81CDC8F4900B1E229 /* Build configuration list for PBXNativeTarget "jifenUITests" */;
+			buildPhases = (
+				65684D951CDC8F4900B1E229 /* Sources */,
+				65684D961CDC8F4900B1E229 /* Frameworks */,
+				65684D971CDC8F4900B1E229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65684D9B1CDC8F4900B1E229 /* PBXTargetDependency */,
+			);
+			name = jifenUITests;
+			productName = jifenUITests;
+			productReference = 65684D991CDC8F4900B1E229 /* jifenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65684D721CDC8F4900B1E229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "吕欢达";
+				TargetAttributes = {
+					65684D791CDC8F4900B1E229 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					65684D8D1CDC8F4900B1E229 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 65684D791CDC8F4900B1E229;
+					};
+					65684D981CDC8F4900B1E229 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 65684D791CDC8F4900B1E229;
+					};
+				};
+			};
+			buildConfigurationList = 65684D751CDC8F4900B1E229 /* Build configuration list for PBXProject "jifen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65684D711CDC8F4900B1E229;
+			productRefGroup = 65684D7B1CDC8F4900B1E229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65684D791CDC8F4900B1E229 /* jifen */,
+				65684D8D1CDC8F4900B1E229 /* jifenTests */,
+				65684D981CDC8F4900B1E229 /* jifenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65684D781CDC8F4900B1E229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65684DC01CDC984A00B1E229 /* faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg in Resources */,
+				65684D881CDC8F4900B1E229 /* LaunchScreen.storyboard in Resources */,
+				65684DBD1CDC94C300B1E229 /* IMG_0030.jpg in Resources */,
+				65684DBA1CDC92DF00B1E229 /* data.db in Resources */,
+				65684DC11CDC984A00B1E229 /* 34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg in Resources */,
+				65684D851CDC8F4900B1E229 /* Assets.xcassets in Resources */,
+				65684DC31CDC995C00B1E229 /* d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg in Resources */,
+				65684D831CDC8F4900B1E229 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65684D8C1CDC8F4900B1E229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65684D971CDC8F4900B1E229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65684D761CDC8F4900B1E229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65684D801CDC8F4900B1E229 /* ViewController.swift in Sources */,
+				65684DB61CDC916300B1E229 /* SQLTable.swift in Sources */,
+				65684DB81CDC917500B1E229 /* SQLiteDB.swift in Sources */,
+				65684DB41CDC915600B1E229 /* String-Extras.swift in Sources */,
+				65684D7E1CDC8F4900B1E229 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65684D8A1CDC8F4900B1E229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65684D931CDC8F4900B1E229 /* jifenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65684D951CDC8F4900B1E229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65684D9E1CDC8F4900B1E229 /* jifenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65684D901CDC8F4900B1E229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65684D791CDC8F4900B1E229 /* jifen */;
+			targetProxy = 65684D8F1CDC8F4900B1E229 /* PBXContainerItemProxy */;
+		};
+		65684D9B1CDC8F4900B1E229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65684D791CDC8F4900B1E229 /* jifen */;
+			targetProxy = 65684D9A1CDC8F4900B1E229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65684D811CDC8F4900B1E229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65684D821CDC8F4900B1E229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65684D861CDC8F4900B1E229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65684D871CDC8F4900B1E229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65684DA01CDC8F4900B1E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65684DA11CDC8F4900B1E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65684DA31CDC8F4900B1E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jifen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.jifen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lvhuanda/Desktop/jifen/jifen/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		65684DA41CDC8F4900B1E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jifen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.jifen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lvhuanda/Desktop/jifen/jifen/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		65684DA61CDC8F4900B1E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jifenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.jifenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jifen.app/jifen";
+			};
+			name = Debug;
+		};
+		65684DA71CDC8F4900B1E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jifenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.jifenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jifen.app/jifen";
+			};
+			name = Release;
+		};
+		65684DA91CDC8F4900B1E229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jifenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.jifenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jifen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		65684DAA1CDC8F4900B1E229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jifenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.jifenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jifen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65684D751CDC8F4900B1E229 /* Build configuration list for PBXProject "jifen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65684DA01CDC8F4900B1E229 /* Debug */,
+				65684DA11CDC8F4900B1E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65684DA21CDC8F4900B1E229 /* Build configuration list for PBXNativeTarget "jifen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65684DA31CDC8F4900B1E229 /* Debug */,
+				65684DA41CDC8F4900B1E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65684DA51CDC8F4900B1E229 /* Build configuration list for PBXNativeTarget "jifenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65684DA61CDC8F4900B1E229 /* Debug */,
+				65684DA71CDC8F4900B1E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65684DA81CDC8F4900B1E229 /* Build configuration list for PBXNativeTarget "jifenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65684DA91CDC8F4900B1E229 /* Debug */,
+				65684DAA1CDC8F4900B1E229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65684D721CDC8F4900B1E229 /* Project object */;
+}
