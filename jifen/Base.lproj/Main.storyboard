@@ -32,7 +32,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1L4-1N-Oo7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1052" y="-365"/>
+            <point key="canvasLocation" x="-1187" y="-364"/>
         </scene>
         <!--b-->
         <scene sceneID="lzF-Kr-Y4p">
@@ -52,7 +52,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">       每队五人，其中一人为队长，替补球员最多七人。         每半场各20分钟，中场休息10分钟。3分线内投入得2分；3分线外投入得3分，罚球投进得1分。                                     每名球员各有5次被允许犯规的机会，第五次即犯满退场。  违例--既不属于侵人犯规，也不属于技术犯规的违反规则的行为。                                              主要的违例行为是:非法运球;带球走;3秒违例;使球出界。违例--既不属于侵人犯规，也不属于技术犯规的违反规则的行为。主要的违例行为是:非法运球;带球走;3秒违例;使球出界。</mutableString>
+                                <string key="text">       每队五人，其中一人为队长，替补球员最多七人。         每半场各20分钟，中场休息10分钟。3分线内投入得2分；3分线外投入得3分，罚球投进得1分。                                     每名球员各有5次被允许犯规的机会，第五次即犯满退场。  违例--既不属于侵人犯规，也不属于技术犯规的违反规则的行为。                                              主要的违例行为是:非法运球;带球走;3秒违例;使球出界。违例--既不属于侵人犯规，也不属于技术犯规的违反规则的行为。主要的违例行为是:非法运球;带球走;3秒违例;使球出界。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -122,6 +122,9 @@
                                 <state key="normal" title="犯规">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fangui1:" destination="uaj-xc-ey3" eventType="touchUpInside" id="csy-Yl-bP9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W2I-EJ-CsA">
                                 <rect key="frame" x="108" y="386" width="30" height="30"/>
@@ -130,6 +133,9 @@
                                 <state key="normal" title="违例">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="weili:" destination="uaj-xc-ey3" eventType="touchUpInside" id="ETJ-kf-YUu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SKd-VX-oMu">
                                 <rect key="frame" x="266" y="386" width="30" height="30"/>
@@ -138,6 +144,9 @@
                                 <state key="normal" title="违例">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="weili2:" destination="uaj-xc-ey3" eventType="touchUpInside" id="SHx-1O-4hR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G3N-MW-Tpa">
                                 <rect key="frame" x="266" y="337" width="30" height="30"/>
@@ -146,22 +155,31 @@
                                 <state key="normal" title="犯规">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fangui2:" destination="uaj-xc-ey3" eventType="touchUpInside" id="Nk4-st-KAu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OXE-zp-d3Y">
-                                <rect key="frame" x="108" y="426" width="30" height="30"/>
+                                <rect key="frame" x="108" y="431" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="换人">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="huanren1:" destination="uaj-xc-ey3" eventType="touchUpInside" id="2bD-Nu-Ksa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tbd-Lv-rbp">
-                                <rect key="frame" x="266" y="426" width="30" height="30"/>
+                                <rect key="frame" x="266" y="431" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <state key="normal" title="换人">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="huanren2:" destination="uaj-xc-ey3" eventType="touchUpInside" id="9EH-Fh-fqr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Df0-fm-eDe">
                                 <rect key="frame" x="68" y="488" width="30" height="30"/>
@@ -175,42 +193,6 @@
                                     <action selector="one:" destination="uaj-xc-ey3" eventType="touchUpInside" id="DSw-yy-AEe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v0b-mr-Axq">
-                                <rect key="frame" x="68" y="526" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="1">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="onesub:" destination="uaj-xc-ey3" eventType="touchUpInside" id="fIe-mA-urL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4fL-wN-FiO">
-                                <rect key="frame" x="100" y="526" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="2">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="one:" destination="uaj-xc-ey3" eventType="touchUpInside" id="mUb-IX-LUY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dbq-dv-WSu">
-                                <rect key="frame" x="138" y="526" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="3">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="one:" destination="uaj-xc-ey3" eventType="touchUpInside" id="gcH-7x-QiQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HoJ-FI-BIb">
                                 <rect key="frame" x="100" y="488" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -219,6 +201,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="two:" destination="uaj-xc-ey3" eventType="touchUpInside" id="Su8-oP-7u3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lxt-xi-jYc">
                                 <rect key="frame" x="138" y="488" width="30" height="30"/>
@@ -228,6 +213,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="three:" destination="uaj-xc-ey3" eventType="touchUpInside" id="Fy1-8a-EZh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pcs-Ta-Xmy">
                                 <rect key="frame" x="241" y="488" width="30" height="30"/>
@@ -237,15 +225,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eKd-WD-H49">
-                                <rect key="frame" x="241" y="512" width="30" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="1">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <connections>
+                                    <action selector="one2:" destination="uaj-xc-ey3" eventType="touchUpInside" id="xf6-Fw-vaL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SN7-fe-yjA">
                                 <rect key="frame" x="307" y="488" width="30" height="30"/>
@@ -255,6 +237,9 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="three2:" destination="uaj-xc-ey3" eventType="touchUpInside" id="Dfm-Eg-5mj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="q9t-bB-qTH">
                                 <rect key="frame" x="274" y="488" width="30" height="30"/>
@@ -264,6 +249,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="two2:" destination="uaj-xc-ey3" eventType="touchUpInside" id="T4k-kg-vBw"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="     森林狼" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="YEJ-DD-4Kw">
                                 <rect key="frame" x="80" y="206" width="97" height="30"/>
@@ -289,38 +277,13 @@
                                 <color key="textColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="urk-uh-YEP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="urk-uh-YEP">
                                 <rect key="frame" x="80" y="252" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="ihS-Ou-2Xl">
-                                <rect key="frame" x="231" y="252" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eWH-QV-KfC">
-                                <rect key="frame" x="274" y="526" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="2">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5RE-WM-YFb">
-                                <rect key="frame" x="307" y="526" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="3">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5tJ-LX-pdv">
                                 <rect key="frame" x="30" y="497" width="11" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -329,17 +292,58 @@
                                 <color key="textColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0KZ-lw-k50">
-                                <rect key="frame" x="31" y="530" width="8" height="21"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="6" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="ihS-Ou-2Xl">
+                                <rect key="frame" x="231" y="252" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="vUP-Ey-0KX">
+                                <rect key="frame" x="107" y="360" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="h7R-Mb-ITD">
+                                <rect key="frame" x="107" y="408" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="L9J-Oh-jFq">
+                                <rect key="frame" x="265" y="408" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Yqq-gM-Yso">
+                                <rect key="frame" x="107" y="455" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="C8T-Qb-9lo">
+                                <rect key="frame" x="265" y="455" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="K8w-ip-218">
+                                <rect key="frame" x="265" y="360" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="kYH-rC-wy8" appends="YES" id="5Hg-Vn-adI"/>
@@ -347,11 +351,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="JLt-Ke-M4d"/>
                     <connections>
-                        <outlet property="one" destination="Df0-fm-eDe" id="TSF-z7-M3E"/>
-                        <outlet property="score1" destination="ihS-Ou-2Xl" id="M9n-EL-AE1"/>
-                        <outlet property="score2" destination="ihS-Ou-2Xl" id="DAS-UY-exM"/>
+                        <outlet property="fangui1" destination="vUP-Ey-0KX" id="EuC-WF-qOF"/>
+                        <outlet property="fangui2" destination="K8w-ip-218" id="jgn-DL-wrT"/>
+                        <outlet property="huanren1" destination="Yqq-gM-Yso" id="t2e-zm-lp5"/>
+                        <outlet property="huanren2" destination="C8T-Qb-9lo" id="I0r-uj-dLv"/>
+                        <outlet property="score1" destination="urk-uh-YEP" id="WUC-rw-KKp"/>
+                        <outlet property="score2" destination="ihS-Ou-2Xl" id="u6e-lq-Hsd"/>
                         <outlet property="txtMobile" destination="23J-yY-yLW" id="ijb-Ia-vPh"/>
                         <outlet property="txtUname" destination="YEJ-DD-4Kw" id="Tg3-BN-ajF"/>
+                        <outlet property="weili1" destination="h7R-Mb-ITD" id="dC2-N1-ijF"/>
+                        <outlet property="weili2" destination="L9J-Oh-jFq" id="3CL-hA-zX4"/>
                     </connections>
                 </viewController>
                 <rotationGestureRecognizer id="kYH-rC-wy8"/>
