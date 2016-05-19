@@ -16,6 +16,8 @@ class c: UIViewController {
     var d=0
     var e=0
     var f=0
+    var time :NSTimer!
+    var timer :Int = 0
     @IBOutlet var txtUname: UITextField!
     @IBOutlet var txtMobile: UITextField!
     @IBOutlet var score1: UITextField!
@@ -26,6 +28,8 @@ class c: UIViewController {
     @IBOutlet var weili2: UITextField!
     @IBOutlet var huanren1: UITextField!
     @IBOutlet var huanren2: UITextField!
+    @IBOutlet var time1: UILabel!
+    @IBOutlet var time2: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         db = SQLiteDB.sharedInstance()
@@ -41,6 +45,22 @@ class c: UIViewController {
         saveUser()
     }
 
+    @IBAction func start(sender: UIButton) {
+        time = NSTimer.scheduledTimerWithTimeInterval(1,target:self,selector:Selector("tickDown"),userInfo:nil,repeats:true)
+    }
+    func tickDown()
+    {
+        timer++
+        let sec = timer%60
+        let min = timer/60
+        time1.text = String(min)
+        time2.text = String(sec)
+        saveUser()
+    }
+    @IBAction func stop(sender: UIButton) {
+        time.invalidate()
+        saveUser()
+    }
     @IBAction func one(sender: UIButton) {
         if(!score1.text!.isEmpty){
         b=(score1.text!as NSString).integerValue
