@@ -220,15 +220,15 @@ class c: UIViewController {
         if data.count > 0 {
             //获取最后一行数据显示
             let user = data[data.count - 1]
-            txtUname.text = user["uname"] as? String
-            txtMobile.text = user["mobile"] as? String
+            score1.text = user["uname"] as? String
+            score2.text = user["mobile"] as? String
         }
     }
     
     //保存数据到SQLite
     func saveUser() {
-        let uname = self.txtUname.text!
-        let mobile = self.txtMobile.text!
+        let uname = self.score1.text!
+        let mobile = self.score2.text!
         //插入数据库，这里用到了esc字符编码函数，其实是调用bridge.m实现的
         let sql = "insert into t_user(uname,mobile) values('\(uname)','\(mobile)')"
         print("sql: \(sql)")
