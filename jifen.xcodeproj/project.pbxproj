@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65377DE41CE9ED5F00B0EBA7 /* 77a58PICr4g-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65377DE31CE9ED5F00B0EBA7 /* 77a58PICr4g-1.jpg */; };
+		655B429E1CED6A1000759499 /* D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B429D1CED6A1000759499 /* D.swift */; };
 		65680E9D1CE9EBD2009D37FF /* f7b361007b1d0570706d082c5ef5ba49.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65680E9C1CE9EBD2009D37FF /* f7b361007b1d0570706d082c5ef5ba49.gif */; };
 		65684D7E1CDC8F4900B1E229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684D7D1CDC8F4900B1E229 /* AppDelegate.swift */; };
 		65684D801CDC8F4900B1E229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65684D7F1CDC8F4900B1E229 /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		65377DE31CE9ED5F00B0EBA7 /* 77a58PICr4g-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "77a58PICr4g-1.jpg"; path = "../77a58PICr4g-1.jpg"; sourceTree = "<group>"; };
+		655B429D1CED6A1000759499 /* D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D.swift; sourceTree = "<group>"; };
 		65680E9C1CE9EBD2009D37FF /* f7b361007b1d0570706d082c5ef5ba49.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = f7b361007b1d0570706d082c5ef5ba49.gif; path = ../f7b361007b1d0570706d082c5ef5ba49.gif; sourceTree = "<group>"; };
 		65684D7A1CDC8F4900B1E229 /* jifen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jifen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65684D7D1CDC8F4900B1E229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				65BFA6341CE0B0FF00D32D3B /* A.swift */,
 				65BFA6361CE0B1B700D32D3B /* b.swift */,
 				65BFA6381CE0B20C00D32D3B /* c.swift */,
+				655B429D1CED6A1000759499 /* D.swift */,
 			);
 			path = jifen;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				65684DB81CDC917500B1E229 /* SQLiteDB.swift in Sources */,
 				65BFA6351CE0B0FF00D32D3B /* A.swift in Sources */,
 				65BFA6391CE0B20C00D32D3B /* c.swift in Sources */,
+				655B429E1CED6A1000759499 /* D.swift in Sources */,
 				65684DB41CDC915600B1E229 /* String-Extras.swift in Sources */,
 				65684D7E1CDC8F4900B1E229 /* AppDelegate.swift in Sources */,
 			);
