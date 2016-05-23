@@ -38,7 +38,8 @@ class c: UIViewController {
         //如果有数据则加载
         initUser()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        score1.text="0"
+        score2.text="0"
     }
     
     @IBAction func saveClicked(sender: AnyObject) {
@@ -213,6 +214,11 @@ class c: UIViewController {
         }
         saveUser()
 
+    }
+
+    @IBAction func guanbi(sender: UIButton) {
+        
+        exit(0);
     }
     
       func initUser() {
