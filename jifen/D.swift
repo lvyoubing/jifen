@@ -22,8 +22,6 @@ class D: UIViewController {
         db = SQLiteDB.sharedInstance()
         //如果有数据则加载
         initUser()
-        // Do any additional setup after loading the view, typically from a nib.
-        
     }
     @IBAction func saveClicked(sender: AnyObject) {
         saveUser()

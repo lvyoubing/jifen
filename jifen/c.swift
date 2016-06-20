@@ -37,21 +37,21 @@ class c: UIViewController {
         db.execute("create table if not exists t_user(uid integer primary key,uname varchar(20),mobile varchar(20))")
         //如果有数据则加载
         initUser()
-        // Do any additional setup after loading the view, typically from a nib.
         score1.text="0"
         score2.text="0"
     }
-    
+    //点击保存
     @IBAction func saveClicked(sender: AnyObject) {
         saveUser()
     }
 
     @IBAction func start(sender: UIButton) {
         time = NSTimer.scheduledTimerWithTimeInterval(1,target:self,selector:Selector("tickDown"),userInfo:nil,repeats:true)
+        //控制每秒执行一次tickDown方法
     }
     func tickDown()
     {
-        timer--
+        timer++
         let sec = timer%60
         let min = timer/60
         time1.text = String(min)

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YLg-Mn-ZQu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YLg-Mn-ZQu">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--A-->
@@ -18,9 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a61-FU-Mgi">
-                                <rect key="frame" x="103" y="70" width="217" height="214"/>
-                                <animations/>
-                                <state key="normal" image="77a58PICr4g-1.jpg">
+                                <rect key="frame" x="283" y="245" width="217" height="214"/>
+                                <state key="normal" image="1.jpg">
                                     <color key="titleColor" red="0.99678558111190796" green="0.8331332802772522" blue="0.11132288724184036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -28,7 +27,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -50,32 +48,22 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0030.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f7e-SY-SYZ">
                                 <rect key="frame" x="46" y="64" width="320" height="276"/>
-                                <animations/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B6g-Xf-Hii">
                                 <rect key="frame" x="58" y="348" width="297" height="226"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">       每队五人，其中一人为队长，替补球员最多七人。         每半场各20分钟，中场休息10分钟。3分线内投入得2分；3分线外投入得3分，罚球投进得1分。                                     每名球员各有5次被允许犯规的机会，第五次即犯满退场。  违例--既不属于侵人犯规，也不属于技术犯规的违反规则的行为。                                              主要的违例行为是:非法运球;带球走;3秒违例;使球出界。违例--既不属于侵人犯规，也不属于技术犯规的违反规则的行为。主要的违例行为是:非法运球;带球走;3秒违例;使球出界。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRg-CK-tOL">
-                                <rect key="frame" x="198" y="589" width="28" height="25"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.032224360853433609" green="0.9832882285118103" blue="0.60783082246780396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="titleShadowOffset" width="1" height="0.0"/>
-                                <state key="normal" image="f7b361007b1d0570706d082c5ef5ba49.gif">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.99679106473922729" green="0.83317512273788452" blue="0.083727143704891205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30j-PU-4t2">
+                                <rect key="frame" x="189" y="582" width="34" height="30"/>
+                                <state key="normal" title=" 开始"/>
                                 <connections>
-                                    <segue destination="uaj-xc-ey3" kind="presentation" id="YK9-BA-dPy"/>
+                                    <segue destination="uaj-xc-ey3" kind="modal" id="cBm-5q-URb"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.0081365080550312996" green="0.99922376871109009" blue="0.60278201103210449" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="NCX-8X-HPq"/>
@@ -98,11 +86,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="594c2cf6d767323849296612ceeae411.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NdZ-Kj-LtZ">
                                 <rect key="frame" x="-2" y="-8" width="319" height="608"/>
-                                <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2I-EJ-CsA">
                                 <rect key="frame" x="229" y="64" width="30" height="49"/>
-                                <animations/>
                                 <state key="normal" title="违例">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -112,7 +98,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKd-VX-oMu">
                                 <rect key="frame" x="229" y="357" width="30" height="30"/>
-                                <animations/>
                                 <state key="normal" title="违例">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -122,7 +107,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXE-zp-d3Y">
                                 <rect key="frame" x="229" y="214" width="30" height="30"/>
-                                <animations/>
                                 <state key="normal" title="换人">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -132,7 +116,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbd-Lv-rbp">
                                 <rect key="frame" x="229" y="489" width="30" height="30"/>
-                                <animations/>
                                 <state key="normal" title="换人">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -142,7 +125,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-fm-eDe">
                                 <rect key="frame" x="20" y="52" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -153,7 +135,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoJ-FI-BIb">
                                 <rect key="frame" x="20" y="90" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -164,7 +145,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxt-xi-jYc">
                                 <rect key="frame" x="29" y="128" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -175,7 +155,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcs-Ta-Xmy">
                                 <rect key="frame" x="158" y="513" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -186,7 +165,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SN7-fe-yjA">
                                 <rect key="frame" x="148" y="437" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -197,7 +175,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9t-bB-qTH">
                                 <rect key="frame" x="158" y="475" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -208,29 +185,25 @@
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="       热火" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="23J-yY-yLW">
                                 <rect key="frame" x="20" y="550" width="72" height="30"/>
-                                <animations/>
                                 <color key="textColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahX-y5-NMy">
                                 <rect key="frame" x="248" y="289" width="22" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="urk-uh-YEP">
-                                <rect key="frame" x="233" y="129" width="52" height="30"/>
-                                <animations/>
+                                <rect key="frame" x="81" y="205" width="52" height="30"/>
                                 <color key="backgroundColor" red="0.042594082653522491" green="0.038974128663539886" blue="0.92576688528060913" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="6" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ihS-Ou-2Xl">
-                                <rect key="frame" x="233" y="437" width="52" height="30"/>
-                                <animations/>
+                                <rect key="frame" x="81" y="359" width="52" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -238,38 +211,32 @@
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7R-Mb-ITD">
                                 <rect key="frame" x="258" y="74" width="32" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L9J-Oh-jFq">
                                 <rect key="frame" x="258" y="357" width="32" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yqq-gM-Yso">
                                 <rect key="frame" x="258" y="214" width="32" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C8T-Qb-9lo">
                                 <rect key="frame" x="258" y="489" width="32" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhN-eD-4MS">
                                 <rect key="frame" x="201" y="314" width="31" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ukf-08-CIk">
                                 <rect key="frame" x="92" y="283" width="30" height="30"/>
-                                <animations/>
                                 <state key="normal" title="开始">
                                     <color key="titleColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -279,59 +246,46 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLW-8a-2yI">
                                 <rect key="frame" x="202" y="285" width="17" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNk-i3-Lyf">
                                 <rect key="frame" x="201" y="256" width="31" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ICY-zO-J1z">
-                                <rect key="frame" x="55" y="321" width="105" height="108"/>
-                                <animations/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="     森林狼" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YEJ-DD-4Kw">
                                 <rect key="frame" x="122" y="20" width="77" height="30"/>
-                                <animations/>
                                 <color key="textColor" red="1" green="0.1034294052" blue="0.20817606159999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejt-Z9-SN8">
-                                <rect key="frame" x="244" y="162" width="30" height="30"/>
-                                <animations/>
-                                <state key="normal" backgroundImage="f7b361007b1d0570706d082c5ef5ba49.gif"/>
+                                <rect key="frame" x="229" y="128" width="61" height="65"/>
+                                <state key="normal" backgroundImage="d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg"/>
                                 <connections>
                                     <segue destination="c8q-v4-nu1" kind="modal" id="F22-Et-Q8z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gA-IS-mPS">
-                                <rect key="frame" x="244" y="406" width="30" height="30"/>
-                                <animations/>
-                                <state key="normal" backgroundImage="f7b361007b1d0570706d082c5ef5ba49.gif"/>
-                                <connections>
-                                    <segue destination="c8q-v4-nu1" kind="modal" id="MB4-xF-vC5"/>
-                                </connections>
-                            </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dDB-AE-6Ql">
-                                <rect key="frame" x="55" y="166" width="105" height="111"/>
-                                <animations/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxU-OZ-bam">
-                                <rect key="frame" x="151" y="563" width="44" height="37"/>
-                                <animations/>
-                                <state key="normal" title="🔚"/>
+                                <rect key="frame" x="248" y="563" width="60" height="37"/>
+                                <state key="normal" title="比赛结束">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="guanbi:" destination="uaj-xc-ey3" eventType="touchUpInside" id="Kt8-c1-Aux"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gA-IS-mPS">
+                                <rect key="frame" x="229" y="404" width="61" height="68"/>
+                                <state key="normal" backgroundImage="faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg"/>
+                                <connections>
+                                    <segue destination="c8q-v4-nu1" kind="modal" id="MB4-xF-vC5"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <connections>
@@ -355,7 +309,7 @@
                 <rotationGestureRecognizer id="kYH-rC-wy8"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0st-iU-PIx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-295" y="45"/>
+            <point key="canvasLocation" x="14" y="128"/>
         </scene>
         <!--D-->
         <scene sceneID="bn9-XQ-DNB">
@@ -371,19 +325,16 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fyc-M1-oRg">
                                 <rect key="frame" x="20" y="178" width="97" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NxS-jE-qb4">
                                 <rect key="frame" x="188" y="178" width="97" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbp-7N-O9n">
                                 <rect key="frame" x="27" y="245" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.015939684584736824" green="0.98726397752761841" blue="0.60762637853622437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="进">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -394,14 +345,12 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="罚篮" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2g-Dy-wXA">
                                 <rect key="frame" x="143" y="117" width="34" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbA-cB-Z2T">
                                 <rect key="frame" x="58" y="245" width="53" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.015939684584736824" green="0.98726397752761841" blue="0.60762637853622437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="不进">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -409,7 +358,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZp-ha-ijJ">
                                 <rect key="frame" x="200" y="245" width="30" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.015939684584736824" green="0.98726397752761841" blue="0.60762637853622437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="进">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -420,22 +368,19 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZJ-IH-sN8">
                                 <rect key="frame" x="231" y="245" width="54" height="30"/>
-                                <animations/>
                                 <color key="tintColor" red="0.015939684584736824" green="0.98726397752761841" blue="0.60762637853622437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="不进">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm7-8E-wT7">
-                                <rect key="frame" x="130" y="376" width="60" height="30"/>
-                                <animations/>
-                                <state key="normal" title="返回比赛"/>
+                                <rect key="frame" x="145" y="376" width="30" height="30"/>
+                                <state key="normal" title="🔚"/>
                                 <connections>
                                     <segue destination="uaj-xc-ey3" kind="presentation" id="hyQ-bs-aOe"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
@@ -445,19 +390,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s7c-ZR-bCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-381" y="702"/>
+            <point key="canvasLocation" x="-306" y="971"/>
         </scene>
     </scenes>
     <resources>
-        <image name="34fae6cd7b899e51e64ef36a42a7d933c9950d88.jpg" width="543" height="750"/>
+        <image name="1.jpg" width="605" height="553"/>
         <image name="594c2cf6d767323849296612ceeae411.jpg" width="625" height="800"/>
-        <image name="77a58PICr4g-1.jpg" width="605" height="553"/>
         <image name="IMG_0030.jpg" width="510" height="501"/>
         <image name="d53f8794a4c27d1e05f9f5ba1bd5ad6edcc438f5.jpg" width="700" height="519"/>
-        <image name="f7b361007b1d0570706d082c5ef5ba49.gif" width="128" height="128"/>
+        <image name="faf2b2119313b07e572ca1e809d7912396dd8cb9.jpg" width="350" height="350"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hyQ-bs-aOe"/>
+        <segue reference="cBm-5q-URb"/>
         <segue reference="MB4-xF-vC5"/>
     </inferredMetricsTieBreakers>
 </document>
