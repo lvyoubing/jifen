@@ -17,7 +17,7 @@ class c: UIViewController {
     var e=0
     var f=0
     var time :NSTimer!
-    var timer :Int = 24
+    var timer :Int = 720
     @IBOutlet var txtUname: UITextField!
     @IBOutlet var txtMobile: UITextField!
     @IBOutlet var score1: UITextField!
@@ -51,7 +51,7 @@ class c: UIViewController {
     }
     func tickDown()
     {
-        timer++
+        timer--
         let sec = timer%60
         let min = timer/60
         time1.text = String(min)
